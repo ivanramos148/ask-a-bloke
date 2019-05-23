@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css?family=Lato|Montserrat|Noto+Sans+KR|PT+Sans|Roboto&display=swap" rel="stylesheet">
+<title></title>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Ask-<span style="color: red">a</span>-Bloke/PcTips</h1>
+    </div>
+    <ul class="ulList">
+      <li><p class="active" href="#home">Home</p></li>
+      <li><p href="#news">News</p></li>
+      <li><p href="#contact">Contact</p></li>
+    </ul>
+
+    <div class="container" id="containerDiv">
+
+
+    <form id="formOne" class="textWidth">
+      <input type="text" id="userTitle" class="form-control" placeholder="Title">
+      <input type="text" id="userName" class="form-control" placeholder="You Name">
+      <input type="text" id="userDescription" class="form-control" placeholder="Ask Here">
+      <button type="submit" class="btn btn-default">clickhere</button>
+    </form>
+
+      <button type="button" id="displayOnDom">display</button>
+
+
+        <div id="results">
+        </div>
+
+
+
+        <div class="container">
+
+          <!-- Modal -->
+          <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <div style="right: 0">
+                    <h4 class="modal-title" >Modal Header</h4>
+                  </div>
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+
+                </div>
+                <div class="modal-body">
+                  <div class="container">
+
+                      <form class="doneEdit">
+                        <input type="text" id="editTitle" class="form-control"> <br>
+                        <input type="text" id="editName" class="form-control"> <br>
+                          <div class="input-group">
+                            <input type="text" id="editDescription" class="form-control">
+                            <button type="submit"  name="button">Done</button>
+                          </div>
+                      </form>
+
+                  </div>
+                </div>
+                <div class="modal-footer">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+    </div>
+  </body>
+</html>

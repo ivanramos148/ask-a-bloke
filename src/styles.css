@@ -1,0 +1,170 @@
+
+.header{
+  padding: 1.5em;
+  background-image: url("http://www.lexcenter.com.br/site/wp-content/themes/dt-nimble/images/backgrounds/header/art-header-main/full/city_art-header-main.gif");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center -28em;
+}
+
+
+
+.header h1{
+  color: white;
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 1.8em;
+  letter-spacing: -2px;
+}
+
+body:not(.ipsLayout_minimal) ul {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 5050;
+}
+
+ul {
+  height: 50px;
+  width: 100%;
+  background-color: #111;
+  overflow: hidden;
+  box-shadow: 0 2px 5px 0 #0006;
+  list-style-type: none;
+}
+
+/* ul {
+  margin: 0 300px 0 0;
+  display: block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: sticky ;-
+  top: 0;
+} */
+.titlePara{
+  font-size: 22px;
+  margin: 0;
+  padding: 1px;
+}
+.titlePara:hover{
+  color: #ff0505;
+  cursor: pointer;
+}
+#myModal{
+ top: 50%;
+ left: 50%;
+
+ margin-top: -9em; /*set to a negative number 1/2 of your height*/
+ margin-left: -15em; /*set to a negative number 1/2 of your width*/
+}
+.box{
+  width:100%;
+  background-color: white;
+  padding: 20px;
+  margin:auto;
+  position:relative;
+  outline: 1px solid #cccccc;
+}
+.box:hover{
+  outline: 1.5px solid #ff0505;
+}
+.box .description{
+  margin-top: 15px
+}
+.box .dropdown{
+  margin: 0;
+  padding: 0;
+  float: right
+}
+
+.box .boxDescription p{
+  margin: 0;
+  padding: 3px;
+}
+
+
+
+/* start of drop down */
+
+.dropBox p{
+  line-height: 0;
+
+  padding: 0;
+}
+.linkUser{
+  cursor: pointer;
+}
+.linkUser:hover{
+  color: blue
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 100px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 14px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+/* end of drop down */
+
+
+
+li {
+  cursor: pointer;
+  float: left;
+}
+li p:hover {
+  color: grey
+}
+
+li p {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.textWidth{
+  width: 80%
+}
+body{
+  background-color: #DEDEDE !important
+}
+#displayOnDom{
+  display: none;
+}
+#formOne input{
+  margin:20px
+}
+#formOne button{
+  margin-left:20px
+}
+
+#editTitle{
+  width: 77%;
+}
+#editName{
+  width: 77%;
+}
